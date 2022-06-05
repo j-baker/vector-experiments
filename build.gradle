@@ -8,7 +8,6 @@ buildscript {
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.42.0'
         classpath 'com.palantir.javaformat:gradle-palantir-java-format:2.22.0'
         classpath 'com.palantir.baseline:gradle-baseline-java:4.105.0'
-        classpath 'com.palantir.gradle.conjure:gradle-conjure:5.23.0'
         classpath 'com.palantir.gradle.gitversion:gradle-git-version:0.15.0'
         classpath 'gradle.plugin.org.inferred:gradle-processors:3.6.0'
         classpath 'gradle.plugin.org.jetbrains.gradle.plugin.idea-ext:gradle-idea-ext:1.1.4'
@@ -33,7 +32,7 @@ javaVersions {
 allprojects {
     apply plugin: 'com.palantir.java-format'
 
-    group 'com.github.j-baker.loom'
+    group 'com.github.j-baker.vector'
     version rootProject.version
 
     repositories {

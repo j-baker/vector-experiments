@@ -1,7 +1,3 @@
-rootProject.name = 'loom-experiments'
+rootProject.name = 'vector-experiments'
 
-include 'loom-experiments-api'
-include 'loom-experiments-api:loom-experiments-api-dialogue'
-include 'loom-experiments-api:loom-experiments-api-objects'
-include 'loom-experiments-api:loom-experiments-api-undertow'
-include 'loom-experiments-core'
+include 'vector-experiments-core'

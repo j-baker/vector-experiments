@@ -1,7 +1,0 @@
-apply plugin: 'com.palantir.conjure'
-
-conjure {
-  java {
-    useImmutableBytes = true
-  }
-}
